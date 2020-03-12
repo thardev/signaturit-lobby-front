@@ -70,8 +70,7 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "LobbyWarsFront:build",
-            "proxyConfig": "src/proxy.conf.json"
+            "browserTarget": "LobbyWarsFront:build"
           },
           "configurations": {
             "production": {
