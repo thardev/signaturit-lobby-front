@@ -1,0 +1,16 @@
+<div>
+  <div class="partyContainer">
+    <p class="partyName">{{ partyName }}</p>
+  	<p class="rolesTitle">Roles</p>
+  	<div class="buttonsContainer">
+  		<button (click)="addValidator('K')">Add K</button>
+  		<button (click)="addValidator('N')">Add N</button>
+  		<button (click)="addValidator('V')">Add V</button>
+  	</div>
+  	<p>Contract</p>
+  	<input #contract class="partyInput" type="text" name="contract" readonly>
+  	<div>
+      <p>{{ partyName }} has {{ partyPoints }} points</p>
+    </div>
+  </div>
+</div>

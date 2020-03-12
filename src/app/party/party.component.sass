@@ -1,0 +1,34 @@
+@import '../sass/mixins';
+
+.partyContainer
+	position: relative
+	border: 1px solid #F44336
+	border-radius: 2px
+
+	.partyName
+		position: absolute
+		background-color: white
+		top: -20px
+		left: 10px
+
+	input
+		margin-left: 10px
+
+	.rolesTitle
+		margin-top: 10px
+
+	& *
+		padding: 10px 10px
+
+	.buttonsContainer
+		display: flex
+		justify-content: space-evenly
+
+		button
+			+primary-button(70px, 40px, 1em, #EE6E73)
+			margin: 0 10px
+
+@media only screen and (max-width: 767px)
+	.partyContainer
+		& *
+			padding: 5px 5px
